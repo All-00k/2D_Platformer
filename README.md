@@ -1,6 +1,6 @@
 Hit-Based 2D Platformer (Java)
 
-A precision 2D platformer built from scratch using Java and Object-Oriented Programming (OOP) principles. This project features a custom game engine, hit-box-based combat, and a dynamic level loading system.
+A precision 2D platformer built from scratch using Java and Object-Oriented Programming (OOP) principles. This project features a custom game engine(jvm), hit-box-based combat, and a dynamic level loading system.
 
 **Core Technical Architecture**
 ### 1. Object-Oriented Design
