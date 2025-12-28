@@ -1,0 +1,23 @@
+HOW IS YOUR SCREEN MOVING SIR
+
+        So we have actually stored our whole level inside a bufferimage and we will take the subimage with the help of an array in which we have stored that buffered image 
+        from that bufferimage to draw it on panel
+
+        with het the help of some variable we will get to know the position of the player and with that info we will make changes in the visible window(make window move)
+
+        Adding variables in playing class
+            /0/ Added min and max border variable for what fraction of width do we need to be visible..
+
+            /0/ we need a max value for offset what if we reach end of our leveldata so we have to make sure that our player dont do beyond or mayebe a new finised window should appear
+
+        AFTER ADDING VARIABLES  
+            /0/ we need a method to check the payer position so that after it we can update in game
+            IN PLAYING.JAVA:
+                inside update() we will call it
+                we added a function 
+            now we will give a extra parameter in draw method asa xLvlOffset to draw of level manager and draw of player
+
+
+
+
+//HOW WE ARE ADDING INSIDE THE GAME AT DIFFERENT SPOT(POSITIONS):   so we will take level_one_data and we are haviing a different colour component as a enemy spawn.. we have placed green pixel to spot location of enemy inside the data..

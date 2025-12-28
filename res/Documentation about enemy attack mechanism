@@ -1,0 +1,11 @@
+CRABBY MECH:-
+       GAME STARTS -> check whether crab is in air or not---> if no--> fall to the floor..
+
+       CRAB AT FLOOR --> IDLE --> RUNNING
+
+
+        while RUNNING it checks is player in sight(range) to the crabby if yese--> move towards the playerr-->
+        if player is in the range to attack --> ATTACKING
+        if no--> keeps on checking for the player in sight and moving towards it 
+
+        ATTACKING --> attack over then go to IDLE state and checks the same like [IDLE TO ATTACKING].... 
